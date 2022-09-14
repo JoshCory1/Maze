@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Scorer : MonoBehaviour
 {
+  int Hits = 0;
   void OnCollisionEnter(Collision other) 
   {
-  Debug.Log("you have bumped into stuff:");
+  Hits++;
+  Debug.Log("you have bumped into stuff:" + Hits);
   }
 }
