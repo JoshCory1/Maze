@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -176,7 +176,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 63334e517581e7a429f3f544bd890e0c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -406,6 +406,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1274117568540873135, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b0fddff4499de843b613f2b105ba989, type: 2}
     - target: {fileID: 2313429085247888270, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
       propertyPath: m_Name
       value: Ear
@@ -454,6 +458,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 87.828
       objectReference: {fileID: 0}
+    - target: {fileID: 4618171759850775159, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b0fddff4499de843b613f2b105ba989, type: 2}
+    - target: {fileID: 6067718598148934849, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b0fddff4499de843b613f2b105ba989, type: 2}
     - target: {fileID: 6478128130010724869, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -498,10 +510,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6767144973933454037, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b0fddff4499de843b613f2b105ba989, type: 2}
     - target: {fileID: 8071775847356700042, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
       propertyPath: m_Name
       value: Mousebody
       objectReference: {fileID: 0}
+    - target: {fileID: 8401732853226416323, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b0fddff4499de843b613f2b105ba989, type: 2}
     - target: {fileID: 8782789197986979759, guid: 7d08045266481964cb19b2a7208658a6, type: 3}
       propertyPath: m_Name
       value: Ear (1)
