@@ -22,8 +22,7 @@ public class Dropper : MonoBehaviour
     if(Time.time > Timer1st)
         {
         renderer.enabled = true;
-        rigidbody.useGravity = true;   
-        Debug.Log("its been 3 seconts yo");
+        rigidbody.useGravity = true;
         }
     }    
 }
