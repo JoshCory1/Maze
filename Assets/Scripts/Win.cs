@@ -8,5 +8,9 @@ public class Win : MonoBehaviour
    {
    GetComponent<MeshRenderer>().material.color = Color.white;
    Debug.Log("You Win!!!!!!!!");
+   if(other.gameObject.tag == "Cheese")
+      {
+         Scorer.GetComponent<Scorer>().EndGame();
+      }
    }
 }
