@@ -7,6 +7,6 @@ public class Win : MonoBehaviour
    private void OnCollisionEnter(Collision other)
    {
    GetComponent<MeshRenderer>().material.color = Color.white;
-   Debug.Log("You Win!!!!!!!!");
+   Debug.Log("The mose is full!");
    }
 }
